@@ -1,0 +1,106 @@
+html {
+    font-family: "open-sans", sans-serif;
+    font-size: 15px;
+
+}
+
+body {
+    margin: 0;
+    color: white;
+    background-color: hsla(233, 100%, 62%, 1);
+}
+
+nav {
+    background-color: hsla(233, 100%, 62%, 1);
+    color: white;
+    padding-top: 1rem;
+}
+
+nav li {
+    display: inline-block;
+    padding: 1.25rem;
+    margin-right: 1.5rem;
+    font-size: 1.25rem
+
+ }
+
+ h1 {
+     font-weight: 700;
+     font-family: "poppins", sans-serif;
+     font-size: 1.73rem;
+ }
+
+ h2 {
+     font-weight: 500;
+     font-size: 1.2rem;
+     font-family: "open-sans", sans-serif;
+ }
+
+ p {
+     font-weight: 400;
+     font-size: 1rem;
+     font-family: "open-sans", sans-serif;
+ }
+
+ .photos img {
+     width: 33%;
+     height: auto;
+     float: left;
+ }
+
+ .container {  
+    max-width: 960px;
+    height: auto;
+    margin: auto;
+    padding: 1rem;
+    
+}
+
+ .intro {
+    height: 30rem; 
+    background-image: url("./Media/Craft-beer-shelf.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 1.5rem; 
+    width: 100%;
+ }
+
+ .photos {
+     height: 15rem;
+ }
+
+ .testimonal h1 {
+     font-style: italic;
+     font-family: 'Roboto Mono', monospace;;
+ }
+
+ .meetup {
+     text-align: center;
+ }
+
+ @media only screen and (max-width: 470px) {
+     .photos img {
+         width: 100%;
+         margin: 0;
+     }
+
+     nav li {
+       font-size: 1rem;
+       padding: 0.6rem;
+       margin-right: 0.75rem;
+     }
+
+     .testimonal h1 {
+         font-size: 1rem;
+     }
+
+     .testimonal p {
+         font-size: 0.8rem;
+     }
+
+     .intro {
+         height: 15rem;
+     }
+ }
